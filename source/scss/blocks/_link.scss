@@ -1,0 +1,12 @@
+.link {
+  font-size: 12px;
+  line-height: 15px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--grey {
+    color: #656565;
+  }
+}

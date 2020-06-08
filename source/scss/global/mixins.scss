@@ -1,0 +1,26 @@
+@mixin transition($property) {
+  transition: $property ease  0.5s;
+}
+
+@mixin retina {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $width-tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin button-reset {
+  border: none;
+  background-color: transparent;
+}
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

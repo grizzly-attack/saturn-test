@@ -1,0 +1,63 @@
+.loading-activity {
+  padding: 50px 64px;
+  padding-top: 58px;
+
+  @include mobile {
+    display: none;
+  }
+
+  p {
+    margin: 0;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+  }
+
+  h2 {
+    margin-bottom: 14px;
+  }
+}
+
+.loading-activity__container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  min-height: 285px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/delivery-bg-3.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    width: 65%;
+    max-width: 430px;
+    top: 0;
+    left: 0;
+  }
+}
+
+.loading-activity__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 22px;
+  width: 40%;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  p {
+    margin: 0;
+    font-family: "AvenirNextCyr", "Arial", sans-serif;
+    line-height: 2;
+  }
+}
+
+.loading-activity__btn {
+  margin-top: 16px;
+  width: auto;
+}

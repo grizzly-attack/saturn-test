@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  // что-бы избавиться от outline
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: $main-font;
+  min-width: $width-min;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 400;
+  //color: $main-font-color;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  background-image: url("../img/main-bg.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
+//Убираем глобально outline
+button,
+a,
+a:visited,
+input,
+select {
+  outline: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  box-sizing: border-box;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  text-decoration: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: $red;
+
+  font-size: 11px;
+}

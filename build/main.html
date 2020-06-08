@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ДОСТАВКА ТОВАРА</title>
+  <meta name="description" content="Контент">
+  <meta name="keywords" content="">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="preload" href="css/style.min.css" as="style">
+  <link rel="preload" href="fonts/HelveticaNeueCyr-Roman.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header__top">
+    <div class="wrapper header__top-container">
+
+      <a class="header__tel header__tel--mobile" href="tel:88123222266">8 (812) 322-22-66</a>
+
+      <div class="header__top-links">
+        <a class="header__top-link" href="#"><svg width="24" height="23"><use xlink:href="img/sprite_auto.svg#star"></use></svg><span class="quantity">20</span></a>
+        <a class="header__top-link" href="#"><svg width="20" height="22"><use xlink:href="img/sprite_auto.svg#flags"></use></svg><span class="quantity">9</span></a>
+      </div>
+
+      <a href="#" class="header__user-block">
+        <span>Артур Пирожков</span>
+        <span class="quantity">2</span>
+      </a>
+    </div>
+  </div>
+  <div class="header__middle">
+    <div class="wrapper header__wrapper header__wrapper--middle">
+      <button type="button" aria-label="Переключение меню" class="header__menu-button"><svg width="19" height="15"><use xlink:href="img/sprite_auto.svg#menu-button"></use></svg></button>
+      <a class="header__logo-container" href="#">
+        <img src="img/logo-blue.png" alt="Логотип Сатурн" width="180" height="63">
+      </a>
+
+      <a class="header__cart-mobile" href="#">
+        <span class="quantity">2</span>
+        <svg width="35" height="28"><use xlink:href="img/sprite_auto.svg#cart-mobile"></use></svg>
+      </a>
+
+      <div class="header__middle-right">
+        <div class="header__middle-column header__middle-column--city">
+          <svg width="18" height="26"><use xlink:href="img/sprite_auto.svg#mark"></use></svg>
+          <div class="header__content-container">
+            Ваш город:
+            <button class="header__city-selection" type="button">Санкт-Петербург</button>
+          </div>
+        </div>
+
+        <div class="header__middle-column header__middle-column--tel">
+          <svg width="16" height="26"><use xlink:href="img/sprite_auto.svg#phone"></use></svg>
+          <div class="header__content-container">
+            <a class="header__tel" href="tel:88123222266">8 (812) 322-22-66</a>
+            Заказать звонок
+          </div>
+        </div>
+
+        <div class="header__middle-column header__middle-column--cart">
+          <svg width="35" height="28"><use xlink:href="img/sprite_auto.svg#cart"></use></svg>
+          <a class="header__content-container" href="#">
+            <span class="header__quantity">(10)</span> товаров<br> на сумму <span class="header__price">5 364 р.</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="header__bottom wrapper header__wrapper">
+    <button type="button" class="header__catalog-button">Каталог</button>
+    <div class="header__form search-form">
+      <form>
+        <button class="search-form__button" type="submit" aria-label="Поиск"><svg class="search-form__button-image" width="17" height="17"><use xlink:href="img/sprite_auto.svg#magnifier"></use></svg></button>
+        <label for="search" class="visually-hidden">Что вы ищете?</label>
+        <input type="search" placeholder="Что вы ищете?" id="search">
+      </form>
+    </div>
+    <nav class="header__nav">
+      <a class="header__link" href="#">АКЦИИ и НОВОСТИ</a>
+      <a class="header__link" href="#">МАГАЗИНЫ</a>
+      <a class="header__link" href="#">УСЛУГИ</a>
+      <a class="header__link header__link--active" href="#">ПОКУПАТЕЛЯМ</a>
+    </nav>
+  </div>
+</header>
+
+    <main class="page wrapper">
+      <div class="breadcrumbs">
+        <a href="#" class="breadcrumbs__return-item" aria-label="Вернуться назад"><svg width="19" height="13"><use xlink:href="img/sprite_auto.svg#return-button"></use></svg></a>
+        <a class="breadcrumbs__item" href="#">Главная</a>
+        <a class="breadcrumbs__item" href="#">Покупателям</a>
+        <a class="breadcrumbs__item breadcrumbs__item--active" href="#">Доставка</a>
+      </div>
+      <section class="delivery">
+        <div class="delivery__top">
+          <div class="delivery__nav">
+            <a class="delivery__nav-link delivery__nav-link--active">Доставка</a>
+            <a class="delivery__nav-link" href="#">Разгрузка и подъем</a>
+            <a class="delivery__nav-link" href="#">Колеровка красок</a>
+            <a class="delivery__nav-link" href="#">Резка и распил</a>
+            <a class="delivery__nav-link" href="#">Оплата товара</a>
+            <a class="delivery__nav-link" href="#">Программа лояльности</a>
+            <a class="delivery__nav-link" href="#">Как заказать</a>
+            <a class="delivery__nav-link" href="#">Возврат</a>
+
+          </div>
+
+          <div class="delivery__intro">
+            <div class="delivery__intro-content">
+              <h1>Доставка <span>товара</span></h1>
+              <p class="delivery__content-desktop">Избавьтесь от забот по погрузке, доставке и разгрузке купленного товара! Теперь всё это мы сделаем за Вас!  Быстро и бережно доставим Вашу покупку на дачу, в квартиру или на объект. </p>
+              <div class="delivery__content-mobile">
+                <p>Если ваш адрес входит в «Зону действия единой стоимости доставки» (ЗЕСД), отмеченную <a href="#">на карте</a> зеленым цветом, в зависимости от суммы покупки мы доставим товар бесплатно или по фиксированной цене.</p>
+                <p>При сумме заказа от 20 000 руб. стандартная доставка в пределах ЗЕСД осуществляется БЕСПЛАТНО. <br>Если сумма вашего заказа не превышает 20 000 руб., то стоимость стандартной доставки в ЗЕСД - <a href="#">фиксирована и зависит от типа транспортного средства</a></p>
+                <p>Если ваш адрес не входит в ЗЕСД, то узнать стоимость вы можете в разделе <a href="#">"Расчет стоимости доставки"</a>, а также по телефонам 8 (812) 322-22-66 или 8 (800) 100-21-12.</p>
+                <p>В случае если размеры материалов превышают габаритные размеры заказываемого автомобиля – их необходимо предварительно <a href="#">распилить (разрезать).</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages">
+          <h2 class="h2-style">Преимущества доставки от Сатурна</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <span class="advantages__img-container">
+                <svg width="27" height="27"><use xlink:href="img/sprite_auto.svg#car"></use></svg>
+              </span>
+              Бесплатно или по минимальному тарифу (в «зоне действия единой стоимости доставки»)
+            </li>
+
+            <li class="advantages__item">
+              <span class="advantages__img-container">
+                <svg width="23" height="27"><use xlink:href="img/sprite_auto.svg#hand"></use></svg>
+              </span>
+              Бережная транспортировка на  оборудованных автомобилях
+            </li>
+
+            <li class="advantages__item">
+              <span class="advantages__img-container">
+                <svg width="27" height="25"><use xlink:href="img/sprite_auto.svg#check"></use></svg>
+              </span>
+              В удобное для вас время
+            </li>
+
+            <li class="advantages__item">
+              <span class="advantages__img-container">
+                <svg width="27" height="27"><use xlink:href="img/sprite_auto.svg#map"></use></svg>
+              </span>
+              Доставка по Петербургу, области и пригородам
+            </li>
+          </ul>
+        </div>
+
+        <div class="cost">
+          <div class="cost__content">
+            <p>Узнайте стоимость своей доставки<span>сейчас!</span></p>
+            <a href="#" class="cost__btn btn btn--red">Рассчитать</a>
+          </div>
+        </div>
+
+        <div class="delivery-types">
+          <div class="delivery-types__table">
+            <div class="delivery-types__row delivery-types__row--title">
+              <h2 class="h2-style">ТИПЫ ДОСТАВКИ</h2>
+            </div>
+            <div class="delivery-types__row">
+              <div class="delivery-types__col delivery-types__col--left">
+                В течение дня
+              </div>
+              <div class="delivery-types__col">
+                <p>Осуществляется <b>с 9:00 до 22:00.</b></p>
+                <p>На <b>текущий день</b> доставка <b>оформляется до 10:30.</b></p>
+              </div>
+            </div>
+
+            <div class="delivery-types__row">
+              <div class="delivery-types__col delivery-types__col--left">
+                Стандартная
+              </div>
+              <div class="delivery-types__col">
+                <p>Осуществляется <b>с 9:00 до 22:00.</b></p>
+                <p>Заказ доставляется в течение выбранного 4-часового интервала. </p>
+                <p>На <b>сегодня оформляется до 17:30</b>, на последующие дни – в любое время.</p>
+              </div>
+            </div>
+
+            <div class="delivery-types__row">
+              <div class="delivery-types__col delivery-types__col--left">
+                Горячая доставка
+              </div>
+              <div class="delivery-types__col">
+                <p>Оформляется <b>только на сегодня</b>, начиная <b>с 9:00 до 17:00.</b></p>
+                <p>Заказ доставляется в течение выбранного 2-часового интервала.</p>
+              </div>
+            </div>
+
+            <div class="delivery-types__row">
+              <div class="delivery-types__col delivery-types__col--left">
+                Точно ко времени
+              </div>
+              <div class="delivery-types__col">
+                <p>Заказ доставляется точно ко времени <b>в рамках интервала с 9:00 до 22:00.</b></p>
+                <p><b>Оформляется</b> не позднее чем <b>за 5 часов</b> до желаемого времени доставки.</p>
+                <p class="note">(Чтобы мы привезли заказ сегодня, он должен быть оформлен и подтвержден оператором с 8:00 до 17:00. Если заказ будет оформлен и подтвержден сегодня после 17:00, он будет доставлен не ранее 13:00 завтрашнего дня).</p>
+              </div>
+            </div>
+        </div>
+          <p><b>Итоговое подтверждение</b> возможности доставки осуществляется оператором <b>по телефону.</b></p>
+          <a class="link link--grey" href="#">Подробная информация об условиях доставки.</a>
+        </div>
+
+        <div class="loading-activity">
+          <h2 class="h2-style">Разгрузка и подъем</h2>
+          <p>Мы заботимся о наших клиентах и всегда готовы предоставить полный комплекс услуг.</p>
+          <p>Помимо доставки мы можем осуществить <b>разгрузку, пронос и подъем</b> ваших товаров.</p>
+
+          <div class="loading-activity__container">
+            <div class="loading-activity__content">
+              <p>Нужно разгрузить и поднять товары?</p>
+              <a href="#" class="loading-activity__btn btn btn--red">Подробности</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services">
+          <h2>Другие услуги</h2>
+          <div class="services__container swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide services__item">
+                <img src="img/slider-img-1.png" alt="ГАЗон" width="130" height="134">
+                <a class="services__link" href="#">Доставка</a>
+              </div>
+              <div class="swiper-slide services__item">
+                <img src="img/slider-img-2.png" alt="Грузчик" width="113" height="112">
+                <a class="services__link" href="#">Разгрузка и подем</a>
+              </div>
+              <div class="swiper-slide services__item">
+                <img src="img/slider-img-2.png" alt="Грузчик" width="113" height="112">
+                <a class="services__link" href="#">Оплата</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__desktop">
+    <div class="wrapper">
+      <div class="footer__top">
+        <div class="footer__col">
+          <div class="footer__form-container">
+            <p>Получайте выгодные  предложения, просто оставьте свою почту!</p>
+            <form>
+              <label>
+                <input type="email" placeholder="Ваш email" required="">
+              </label>
+              <button type="submit" aria-label="Отправить форму" class="footer__form-button"></button>
+            </form>
+          </div>
+
+          <div class="footer__social">
+            Мы в соцсетях
+            <div class="footer__social-links">
+              <a class="footer__social-link" href="#" aria-label="Вконтакте"><svg width="15" height="19"><use xlink:href="img/sprite_auto.svg#vk-icon"></use></svg></a>
+              <a class="footer__social-link" href="#" aria-label="Facebook"><svg width="13" height="25"><use xlink:href="img/sprite_auto.svg#fb-icon"></use></svg></a>
+              <a class="footer__social-link" href="#" aria-label="Одноклассники"><img src="img/ok_logo.png" alt="Логотип Одноклассники" width="25" height="25"></a>
+            </div>
+          </div>
+
+          <div class="footer__contacts">
+            У вас остались вопросы? Позвоните нам!
+            <a class="footer__contacts-link" href="tel:88123222266">8 (812) 322-22-66</a>
+            <a class="footer__contacts-link" href="tel:88001002112">8 (800) 100-21-12</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <a class="footer__link footer__link--title" href="#">Каталог</a>
+          <a class="footer__link" href="#">Сухие смеси, грунты</a>
+          <a class="footer__link" href="#">Гидро- и тепло- изоляция</a>
+          <a class="footer__link" href="#">Гипсокартон</a>
+          <a class="footer__link" href="#">Двери, окна, фурнитура</a>
+          <a class="footer__link" href="#">Пиломатериалы</a>
+          <a class="footer__link" href="#">Кровля, водосток</a>
+          <a class="footer__link" href="#">Лаки, краски, герметики</a>
+          <a class="footer__link" href="#">Отделочные материалы</a>
+          <a class="footer__link" href="#">Общестроительные</a>
+          <a class="footer__link" href="#">Сантехника, вентиляция</a>
+          <a class="footer__link" href="#">Электротехника</a>
+          <a class="footer__link" href="#">Инструменты, оснастка</a>
+          <a class="footer__link" href="#">Метизы, крепеж</a>
+          <a class="footer__link" href="#">Спецодежда и хоз. товары</a>
+        </div>
+
+        <div class="footer__col">
+          <a class="footer__link footer__link--title" href="#">О компании</a>
+          <a class="footer__link" href="#">О группе компаний</a>
+          <a class="footer__link" href="#">Вакансии</a>
+          <a class="footer__link" href="#">Реквизиты</a>
+          <a class="footer__link" href="#">Сотрудничество</a>
+
+          <a class="footer__link footer__link--title" href="#">Услуги</a>
+          <a class="footer__link" href="#">Доставка товара</a>
+          <a class="footer__link" href="#">Разгрузка</a>
+          <a class="footer__link" href="#">Подъем на этаж</a>
+          <a class="footer__link" href="#">Распил/резка</a>
+          <a class="footer__link" href="#">Колеровка</a>
+
+          <a class="footer__link footer__link--title" href="#">Интересное</a>
+          <a class="footer__link" href="#">Статьи</a>
+          <a class="footer__link" href="#">Обзоры</a>
+          <a class="footer__link" href="#">Советы</a>
+        </div>
+
+        <div class="footer__col">
+          <a class="footer__link footer__link--title" href="#">Аккаунт</a>
+          <a class="footer__link" href="#">Профиль</a>
+          <a class="footer__link" href="#">Заказы</a>
+          <a class="footer__link" href="#">История заказов</a>
+          <a class="footer__link" href="#">Черновики заказа</a>
+          <a class="footer__link" href="#">Баланс САТов</a>
+
+          <a class="footer__link footer__link--title" href="#">Магазины</a>
+          <a class="footer__link" href="#">Литовская ул., 15</a>
+          <a class="footer__link" href="#">Индустриальный пр., 71</a>
+          <a class="footer__link" href="#">Лахтинский пр., 139</a>
+          <a class="footer__link" href="#">Касимовская ул., 3</a>
+          <a class="footer__link" href="#">Хрулева ул., 12</a>
+          <a class="footer__link" href="#">Краснопутиловская ул, 31</a>
+        </div>
+
+        <div class="footer__col">
+          <a class="footer__link footer__link--title" href="#">Покупателям</a>
+          <a class="footer__link" href="#">Акции</a>
+          <a class="footer__link" href="#">Как заказать</a>
+          <a class="footer__link" href="#">Подарочные карты</a>
+          <a class="footer__link" href="#">Обмен, возврат товара</a>
+          <a class="footer__link" href="#">Наши бренды</a>
+          <a class="footer__link" href="#">Наши партнеры</a>
+          <a class="footer__link" href="#">Оплата</a>
+          <a class="footer__link" href="#">Обратная связь</a>
+
+          <div class="footer__payment payment">
+            <div class="payment__list">
+              <a class="payment__item" href="#" aria-label="оплата с помощью maestro"><img src="img/maestro.png" alt="Maestro" width="52" height="33"></a>
+              <a class="payment__item" href="#" aria-label="оплата с помощью visa"><img src="img/visa.png" alt="Visa" width="52" height="33"></a>
+              <a class="payment__item" href="#" aria-label="оплата с помощью mastercard"><img src="img/mastercard.png" alt="Mastercard" width="52" height="33"></a>
+              <a class="payment__item" href="#" aria-label="оплата с помощью Diners Club"><img src="img/diners_club.png" alt="Diners Club" width="56" height="36"></a>
+            </div>
+
+            <p class="payment__link">
+              <svg width="29" height="26"><use xlink:href="img/sprite_auto.svg#card"></use></svg>
+              <a href="#">Карта сайта</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <img src="img/logo-white.png" alt="Логотип Сатурн" width="153" height="45">
+        </div>
+        <div class="footer__col footer__col--4">Группа компаний "Сатурн" - крупнейший федеральный оператор на рынке строительных и отделочных материалов, включает в себя 49 торговых площадок в 23 городах России. За 20 лет успешной работы компания стала лидером в своем сегменте. В настоящий момент компания поставляет 15 000 наименований товаров на строительные объекты по всей стране.</div>
+        <div class="footer__col footer__col--5 footer__col--center">ООО “Сатурн”, 2016</div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__col-bottom">
+          <svg width="46" height="36"><use xlink:href="img/sprite_auto.svg#assortment"></use></svg>
+          <p>Правильный ассортимент</p>
+        </div>
+        <div class="footer__col-bottom">
+          <svg width="40" height="41"><use xlink:href="img/sprite_auto.svg#label"></use></svg>
+          <p>Правильная цена</p>
+        </div>
+        <div class="footer__col-bottom">
+          <svg width="37" height="35"><use xlink:href="img/sprite_auto.svg#checked"></use></svg>
+          <p>Наличие на складе</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__mobile">
+    <div class="footer__mobile-top">
+      <a class="footer__mobile-link" href="#">Оплата заказа картой</a>
+      <svg width="29" height="19"><use xlink:href="img/sprite_auto.svg#card-hand"></use></svg>
+    </div>
+    <div class="footer__mobile-bottom">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__mobile-link" href="tel:88123222266">8 (812) 322-22-66</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__mobile-link" href="#">Обратная связь</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__mobile-link" href="#">Санкт-Петербург</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__mobile-link" href="#">Полная версия сайта</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+    
+<script src="js/vendor.min.js"></script>
+<script src="js/main.min.js"></script>
+
+  </body>
+</html>
